@@ -1,0 +1,24 @@
+.button__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 18px;
+  padding: 15px 0 33px;
+}
+.btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #374151;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 9px 11px;
+  width: 115px;
+  border: none;
+  border-radius: 6px;
+}
+.btn__link-2 {
+  background-color: #5093e2;
+  color: #fff;
+}

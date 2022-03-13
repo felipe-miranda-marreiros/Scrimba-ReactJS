@@ -1,0 +1,11 @@
+.media {
+  background-color: #161619;
+  padding: 20px 73px;
+  border-radius: 0 0 6px 6px;
+  .media__links-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+}
