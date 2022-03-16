@@ -1,0 +1,17 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-top: 26px;
+  .hero-img {
+    max-width: 395.91px;
+    align-self: center;
+  }
+  .hero__content {
+    margin-top: 32px;
+    padding-left: 36px;
+    .hero__content-paragraph {
+      margin-top: 16px;
+      max-width: 320px;
+    }
+  }
+}

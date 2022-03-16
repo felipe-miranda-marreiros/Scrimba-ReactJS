@@ -1,0 +1,8 @@
+$white: #fff;
+$black: #000;
+$gray-light: #918e9b;
+$bg-grey: #e5e5e5;
+
+@mixin box-shadow {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}

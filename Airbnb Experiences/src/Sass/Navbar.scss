@@ -1,0 +1,7 @@
+@import "variables";
+
+.navbar {
+  background-color: $white;
+  @include box-shadow;
+  padding: 22px 30px;
+}
