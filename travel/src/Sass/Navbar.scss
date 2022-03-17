@@ -1,0 +1,11 @@
+@import "variables";
+
+.navbar {
+  background-color: $nav-color;
+  padding: 20px 0;
+  @include flex;
+  gap: 7px;
+  color: $white;
+  font-weight: $f-weight-md;
+  font-size: 14px;
+}

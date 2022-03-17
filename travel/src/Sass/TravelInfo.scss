@@ -1,0 +1,50 @@
+@import "variables";
+.travelinfo {
+  padding: 45px 40px 18px;
+  @include flex-row;
+  gap: 19px;
+  font-size: 10px;
+  border: 1px solid $border-color;
+
+  .travelinfo-img {
+    height: 168px;
+    width: 125px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .travelinfo__content {
+    .travelinfo__content-info {
+      @include flex-row;
+      align-items: center;
+      gap: 4px;
+      .travelinfo__content-location {
+        font-weight: $f-weight-sm;
+        letter-spacing: 0.17em;
+      }
+      .travelinfo__content-link {
+        color: $link-color;
+        font-weight: $f-weight-sm;
+        margin-left: 12px;
+      }
+    }
+  }
+}
+.travelinfo__description {
+  color: $main-color;
+  .travelinfo__description-title {
+    font-size: 25px;
+    font-weight: $f-weight-lg;
+    line-height: 30px;
+    padding-block: 5px;
+  }
+  .travelinfo__description-date {
+    font-weight: $f-weight-lg;
+    line-height: 12px;
+  }
+  .travelinfo__description-paragraph {
+    margin-top: 9px;
+    font-weight: $f-weight-sm;
+    line-height: 15px;
+  }
+}
