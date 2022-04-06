@@ -1,0 +1,28 @@
+@import "variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #e5e5e5;
+}
+.container {
+  width: 550px;
+  margin: 0 auto;
+  padding: 0 36px;
+}

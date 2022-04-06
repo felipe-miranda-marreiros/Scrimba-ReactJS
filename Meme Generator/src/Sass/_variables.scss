@@ -1,0 +1,5 @@
+$white-color: #fff;
+$grey-color: #d5d4d8;
+@mixin bgLinearGradient {
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}

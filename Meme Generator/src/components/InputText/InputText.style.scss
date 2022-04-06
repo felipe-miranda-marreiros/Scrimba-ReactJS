@@ -1,0 +1,36 @@
+@import "../../Sass/_variables.scss";
+.input-text__container {
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  .input-text__inputs {
+    display: flex;
+    justify-content: center;
+    input {
+      width: 230px;
+      height: 35px;
+      border: 1px solid $grey-color;
+      border-radius: 5px;
+      font-family: Karla;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14px;
+      padding-left: 11px;
+      &:first-child {
+        margin-right: 17px;
+      }
+    }
+  }
+  button {
+    color: $white-color;
+    @include bgLinearGradient;
+    border: none;
+    border-radius: 5px;
+    padding-block: 10px;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+}

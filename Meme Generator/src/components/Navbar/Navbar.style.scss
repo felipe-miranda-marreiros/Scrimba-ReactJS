@@ -1,0 +1,33 @@
+@import "../../Sass/_variables.scss";
+
+.navbar {
+  @include bgLinearGradient;
+  color: $white-color;
+  padding: 19px 37px 19px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__content {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.navbar__content-title {
+  font-family: Karla;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+}
+.navbar__content-paragraph {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+.navbar-img {
+  height: 26px;
+  width: 31px;
+}
