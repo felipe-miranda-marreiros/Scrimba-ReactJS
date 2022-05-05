@@ -1,4 +1,18 @@
-# Scrimba ReactJS
+# Scrimba React JS
+
+Projetos usando Function Component com Hooks - useState e useEffect do curso [Learn React](https://scrimba.com/learn/learnreact).
+
+O que aprendi:
+
+* Function Componente
+* JSX
+* Props
+* useState
+* Short Circuit
+* Conditional Rendering
+* Fetch com useEffect
+* Uso de Spread Operator com Arrays e Objetos
+* Destructuring com Forms
 
 ## React Facts
 
